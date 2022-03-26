@@ -1,6 +1,43 @@
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0dcaf0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0cbee2;
+}
+
 .jumbotron {
   padding-top: 6rem;
   background-color: #e2edff;
+}
+
+#scrool-to-top {
+  background-color: #0d6efd;
+  color: #ffffff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 5px #ccc;
+  z-index: 99;
+
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+#scrool-to-top a i {
+  text-align: center;
+  line-height: 60px;
+  padding: 17px;
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 #projects {
